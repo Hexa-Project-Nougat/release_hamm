@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ROM>
   <!-- Your ROM Name -->
-  <RomName>
-	  <![CDATA[ Hexa-Project ]]>
-  </RomName>
-  <VersionName>
-	  <![CDATA[ Alpha-7(Hammerhead) ]]>
-  </VersionName>
+ <RomName><![CDATA[ Hexa-Project-Hammerhead ]]></RomName>
+  <VersionName> <![CDATA[ Alpha-7(Hammerhead) ]]></VersionName>
   <!-- Your ROM version. MUST be incrementally larger than previous versions -->
   <!-- Do NOT use letters in your version number. Integers only -->
   <!-- Previous version will be read from the build.prop -->
@@ -20,25 +16,19 @@
 <DirectUrl>https://github.com/Hexa-Project/release_hamm/releases/download/Alpha-7/hexa-14.1-20170328-UNOFFICIAL-hammerhead.zip</DirectUrl>
   <HttpUrl nil="true" />
   <!-- What version are you issuing? -->
-  <Android>
-	  <![CDATA[ 7.1.1 Nougat ]]>
-  </Android>
+  <Android><![CDATA[ 7.1.1 Nougat ]]></Android>
   <!-- Providing File Checking for direct downloads. You SHOULD offer this for your users whether using HTTP or Direct -->
   <!-- OPTIONAL: Enter <CheckMD5 nil="true" /> offer MD5 checking. -->
   <CheckMD5 nil="true" />
   <!-- The filesize of your ROM -->
   <!-- Please enter this in BYTES only. Otherwise an incorrect value will be shown -->
-  <FileSize type="integer">SIZEINT</FileSize>
+  <FileSize type="integer">387770470</FileSize>
   <!-- Developer or Team name. You can put anything here, even a couple of names -->
   <!-- OPTIONAL: Enter <Developer nil="true" /> to hide this -->
-  <Developer>
-  <![CDATA[ nazunamoe ]]>
-  </Developer>
+  <Developer> <![CDATA[ nazunamoe ]]></Developer>
   <WebsiteURL nil="true"/>
   <DonateURL nil="true"/>
   <!-- Put the changelog here... Use Markdown to format it -->
   <!-- Again, surround special characters with the CDATA tags or your XML will NOT parse -->
-  <Changelog>
-	  <![CDATA[NULL]]>
-</Changelog>
+  <Changelog><![CDATA[NULL]]></Changelog>
 </ROM>
